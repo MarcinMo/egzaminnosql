@@ -31,6 +31,32 @@ Czas importu danych.
 | TotalSeconds                    | 182,3252719        |
 | TotalMilliseconds   |                    182325,2719  |
 
+![agr1](https://github.com/mtyczynski/egzaminnosql/raw/master/json.png "Logo Title Text 1")
+
+
+wazne pola w JSONie:
+
+| pole  | znaczenie pola             |
+|--------------|------------------------------------------------------|
+| approved_by  |  osoba ktora zaakceptowala komentarz                 |
+| author       |  autor komentarza                                    |
+| banned_by    |  przez kogo zbanowany                                |
+| body         |  tekst komentarza                                    |
+| body_html    |  przerobiony komentarz do postaci   html             |
+| created      |  czas w sekundach od 00:00:00 1   January 1970       |
+| created_utc  |  czas w sekundach od 00:00:00 1   January 1970 (UTC) |
+| distingushed |  wyróżniony                                          |
+| downs        |  liczba minusów                                      |
+| ups          |  liczba plusów                                       |
+| edited       |  czy post był edytowany                              |
+| id           |  id posta                                            |
+| link_title   |  tytul głównego wątku                                |
+| num_reports  |  liczba reportow od innych   redditorów              |
+| replies      |  liczba odpowiedzi                                   |
+| parent_id    |  id do posta nadrzędnego                             |
+| subreddit    |  nazwa subreddita na ktorym   napisano post          |
+| subreddit_id |  id subreddita                                       |
+
 <BR/>
 <BR/>
 <BR/>
@@ -165,3 +191,7 @@ Agregacja 4:
 Time spent in executing function agr4 is: 4.53365750025
 
 ![agr4](https://github.com/mtyczynski/egzaminnosql/raw/master/4.png "Logo Title Text 1")
+
+
+Obserwacje:
+RAM oraz dystep do dysku ma duze znaczenie w szybkosci wykonywania aggregacji.
