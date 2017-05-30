@@ -4,12 +4,12 @@ Informacje o komputerze na którym były wykonywane obliczenia:
 
 | Nazwa                 | Wartosć    |
 |-----------------------|------------|
-| System operacyjny     | TODO |
-| Procesor              | TODO |
-| Ilość rdzeni          | TODO |
-| Pamięć                | TODO |
-| Dysk                  | TODO |
-| Baza danych           | TODO |
+| System operacyjny     | Windows 10 |
+| Procesor              | i3-3217U |
+| Ilość rdzeni          | 2 |
+| Pamięć                | 8GB |
+| Dysk                  |  SSD 250GB |
+| Baza danych           | Reddit Comments|
 ___________________
 Import danych do bazy Mongo ( komenda:)
 
@@ -145,16 +145,23 @@ Czas wykonywana poszczególnych aggregacji.
 Agregacja 1:
 ------------------------------
 Time spent in executing function agr1 is: 4.82879003597
-[]()
+
+![agr1](https://github.com/mtyczynski/egzaminnosql/raw/master/1.png "Logo Title Text 1")
 
 Agregacja 2:
 ------------------------------
 Time spent in executing function agr2 is: 2.57310376325
 
+![agr2](https://github.com/mtyczynski/egzaminnosql/raw/master/2.png "Logo Title Text 1")
+
 Agregacja 3:
 ------------------------------
 Time spent in executing function agr3 is: 1.85864243321
 
+![agr3](https://github.com/mtyczynski/egzaminnosql/raw/master/3.png "Logo Title Text 1")
+
 Agregacja 4:
 ------------------------------
 Time spent in executing function agr4 is: 4.53365750025
+
+![agr4](https://github.com/mtyczynski/egzaminnosql/raw/master/4.png "Logo Title Text 1")
